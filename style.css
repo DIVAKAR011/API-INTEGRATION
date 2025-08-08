@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ffffff22;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weather-card {
+    text-align: center;
+    color: white;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #0072ff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #weatherInfo img {
+    width: 80px;
+  }
+  
+  #weatherInfo h2 {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+  
+  #weatherInfo h3 {
+    font-size: 24px;
+  }
+  
+  .hidden {
+    display: none;
+  }
