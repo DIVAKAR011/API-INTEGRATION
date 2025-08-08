@@ -38,8 +38,10 @@ Upon a successful API call, JavaScript extracts and displays the following infor
     🌥 General weather condition (e.g., Clear, Rain, Clouds)
 
 All data is inserted dynamically into the HTML without requiring a page reload. This real-time data updating is made possible by JavaScript’s fetch() API and DOM manipulation.
-
-#OUTPUT: 
-
+ 
 5. Error Handling and Feedback:
 If the user enters a city that doesn't exist or the API returns an error (e.g., due to network issues or an invalid key), the app provides a clear, friendly error message such as “City not found.” This ensures a smooth user experience and prevents confusion.
+
+#OUTPUT:
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/11b63461-a8ae-4252-ad99-71253e8401ec" />
